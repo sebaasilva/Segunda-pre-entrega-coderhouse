@@ -1,0 +1,108 @@
+
+h1 {
+    text-align: center;
+  }
+  
+  
+  
+  .wireframe {
+    width: 50%;
+    height: 90px;
+    border: 4px solid violet;
+    margin: 20px auto;
+  }
+  
+  .wireframe-h2{
+    width: 50%;
+    height: 50px;
+    border: 4px solid violet;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .wireframe-h3{
+    width: 510px;
+    height: 510px;
+    border: 4px solid violet;
+    margin: 20px auto;
+  }
+
+      .buscar {
+          width: 2000px;
+          height: auto;
+      }
+
+  
+       h2 {
+         text-align: center;  
+       }
+  
+    .ubicacion h2{
+      text-align: left;
+    }
+    
+
+  
+       .logo {
+        width: 150px;
+        height: auto;
+       background-image: url('primer pre entrega/img/Logo.png'); 
+      }
+
+      form {
+        margin-top: 20px;
+        max-width: 400px;
+        margin: 5px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 5px;
+      }
+      
+      textarea {
+        height: 100px;
+      }
+      
+      input[type="submit"] {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+    
+      @font-face {
+        font-family: 'Press Start 2P'; 
+        src: url('/page.html'); 
+      }
+      
+      .navbar .logo {
+        font-family: 'Press Start 2P', Arial, sans-serif; 
+       }
+     
+       .tamaño {
+        width: clamp(300px, calc(18.75rem + ((1rw-3.2px) * 8.9286)),400px);
+       }
+       
+ 
