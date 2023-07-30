@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
 
@@ -35,7 +35,9 @@
                 <a class="nav-link" href="/pages/Contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Inicio</a>
+                <a class="nav-link disabled">Inicio</a>       
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
@@ -77,100 +79,156 @@
         <h3>Productos relevantes</h3>    
 
         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Procesadores
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <h4>Procesadores</h4>
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>Amd-ryzen-5-7600 
-                  <br>
-                    <a href="https://www.amd.com/es/products/apu/amd-ryzen-5-7600" target="_blank">
-                        <img src="/img/ryzen 5.jpeg" alt="procesador ryzen 5">
-                        </a>
+                  <strong>
+                    <div class="Productos-container">
+                    <div class="producto">
+                    <h5>Amd-ryzen-5-7600</h5>
+                     <br>
+                       <a href="https://www.amd.com/es/products/apu/amd-ryzen-5-7600" target="_blank">
+                        <img src="/img/ryzen 5.jpeg" alt="procesador ryzen 5"></a>
+                      <p>precio: $156,999</p>
+                        <i class="far fa-heart fav-icon"></i>
+                    </div>
                         <br><hr><br>
-                        Procesadores-Intel®-Core™-i7 
+                        <div class="producto">
+                        <h5>Procesadores-Intel®-Core™-i7 </h5>
                         <br>
                         <a href="https://www.intel.la/content/www/xl/es/products/details/processors/core/i7.html" target="_blank">
                             <img src="/img/Procesadores Intel® Core™ i7.jpeg" alt="Procesadores Intel® Core™ i7"></a>
-                        </strong> 
+                            <p>precio: $197,999</p>
+                              <i class="far fa-heart fav-icon"></i>
+                       </div> 
+                      </strong> 
+                  </div>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Placas de video
+                  <h4>Placas de video</h4>
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>Amd-radeon-rx-6700-xt
+                  <strong>
+                    <div class="Productos-container">
+                      <div class="producto">
+                    <h5>Amd-radeon-rx-6700-xt</h5>
                     <br>
                     <a href="https://www.amd.com/es/products/graphics/amd-radeon-rx-6700-xt" target="_blank">
                         <img src="/img/rx 6700xt.jpeg" alt="amd-radeon-rx-6700-xt">
                     </a>
+                    <p>precio: $372,599</p>
+                    <i class="far fa-heart fav-icon"></i>
+                  </div>
                     <br><hr><br>
-                    Invidia-2060-Ti
+                    <div class="producto">
+                    <h5>Invidia-2060-Ti</h5>
                     <br>
                     <a href="https://www.techpowerup.com/gpu-specs/geforce-rtx-2060.c3310" target="_blank">
                         <img src="/img/2060 (2).jpeg" alt="invidia-2060-Ti">
-                </a>
-                  </strong> 
+                       </a>
+                        <p>precio: $230,827</p>
+                    <i class="far fa-heart fav-icon"></i>
+                  </div>
+                  </strong>
+                  </div>
+                 </div>
                 </div>
               </div>
-            </div>
+            
+            
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Motherboard
+                    <h4>Motherboard</h4>
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>Tuf-gaming-B550M-plus-(wifi)
+                  <strong>
+                    <div class="Productos-container">
+                      <div class="producto">
+                    <h5>Tuf-gaming-B550M-plus-(wifi)</h5>
                     <br>
                     <a href="https://www.asus.com/latin/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550m-plus-wi-fi/" target="_blank">
                         <img src="/img/mother asus.jpeg" alt="motherboards asus">
                           </a>
+                          <p>precio: $128,929</p>
+                          <i class="far fa-heart fav-icon"></i>
+                        </div>
                           <br><hr><br>
-                          ROG-STRIX-B760-A-GAMING-WIFI-D4
+                          <div class="producto">
+                          <h5>ROG-STRIX-B760-A-GAMING-WIFI-D4</h5>
                           <br>
                             <a href="https://rog.asus.com/latin/motherboards/rog-strix/rog-strix-b760-a-gaming-wifi-d4-model/" target="_blank">
                             <img src="/img/ROG STRIX B760-A GAMING WIFI D4.jpeg" alt="motherboards asus rog-strix">
                             </a>
+                            <p>precio: $170,550</p>
+                            <i class="far fa-heart fav-icon"></i>
+                          </div>
                   </strong> 
+                  </div>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Ram
+                   <h4>Ram</h4> 
                   </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>Memoria-Kingston-FURY-Beast-DDR4-RGB
+                    <strong>
+                      <div class="Productos-container">
+                        <div class="producto">
+                      <h5>Memoria-Kingston-FURY-Beast-DDR4-RGB</h5>
                       <br>
                         <a href="https://www.kingston.com/latam/memory/gaming/kingston-fury-beast-ddr4-rgb-memory" target="_blank">
                             <img src="/img/ram fury.jpeg" alt="Ram fury beast">  
                         </a>
+                        <p>precio 13,100 c/u</p>
+                        <i class="far fa-heart fav-icon"></i>
+                      </div>
                         <br><hr><br>
-                        Memoria-Ram G Skill-TRIDENT Z-NEO-16Gb-(2x8Gb)-3200Mhz-RGB
+                        <div class="producto">
+                        <h5>Memoria-Ram G Skill-TRIDENT Z-NEO-16Gb-(2x8Gb)-3200Mhz-RGB</h5>
                         <br>
                         <a href="https://www.gskill.com/community/1502239313/1687948622/G.SKILL-Releases-White-Trident-Z5-RGB-Series-DDR5-Memory-Up-to-DDR5-8200-24GBx2" target="_blank">
                             <img src="/img/gskill.jpeg" alt="Ram trident Z neo">
                           </a>
+                          <p>precio:47,950</p>
+                          <i class="far fa-heart fav-icon"></i>
+                        </div>
                     </strong>
+                    </div>
                   </div>
                 </div>
               </div>
           </div>
+
+
+
 </main> 
 
+<section id="favoritos-section">
+  <div class="container">
+    <h2>Productos Favoritos</h2>
+    <ul id="favoritos-list">
+        <!-- Aquí se mostrarán los productos favoritos en el contenido principal -->
+    </ul>
+  </div>
+</section>
       
 <footer>
    <a href="https://www.instagram.com/sebaasilva_/#" target="_blank">
@@ -185,6 +243,7 @@
        <img src="/img/mail tp.png" alt="Correo electrónico" width="30" height="30">
      </a>
 </footer>
-<script src="../js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
