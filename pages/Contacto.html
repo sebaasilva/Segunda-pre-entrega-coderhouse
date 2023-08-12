@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap" rel="stylesheet">
   <title>Contacta a nuestra empresa</title>
 
@@ -29,13 +30,13 @@
             <a class="nav-link active" aria-current="page" href="/Index.html">Inico</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/Ubicacion.html">Donde estamos</a>
+            <a class="nav-link" href="/pages/Ubicacion.html">Sus logros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/Nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Contactanos</a>
+            <a class="nav-link" href="/pages/Formas-de-pago.html">formas de pago</a>
           </li>
         </ul>
       </div>
@@ -57,7 +58,7 @@
 
     <br><hr><br>
 
-  <div class="contacto">
+  <div class="contacto" data-aos="fade-right" >
     <div class="ubicacion-h2">
     <h2>Fullhardware</h2>
     <p>Teléfono:11355654827</p>
@@ -66,7 +67,7 @@
     </div> 
   </div>
 
-  <div class="contenedor-formulario-mapa">
+  <div class="contenedor-formulario-mapa" data-aos="zoom-out-up" >
     <div class="contact-container">
       <div class="formulario">
         <h3>Formulario de Contacto:</h3>
@@ -97,6 +98,7 @@
 
 </main> 
 
+<div class="footer-contactos">
 <footer>
   
   <a href="https://www.instagram.com/sebaasilva_/#" target="_blank">
@@ -111,7 +113,12 @@
     <img src="/img/mail tp.png" alt="Correo electrónico" width="30" height="30">
   </a>
 </footer>
+</div>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script src="/js/bootstrap.min.js"></script> 
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

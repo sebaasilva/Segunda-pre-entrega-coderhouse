@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
@@ -29,13 +30,13 @@
                 <a class="nav-link active" aria-current="page" href="/pages/Nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/Ubicacion.html">Donde estamos</a>
+                <a class="nav-link" href="/pages/Ubicacion.html">Sus logros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/pages/Contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Inicio</a>       
+                <a class="nav-link" href="/pages/Formas-de-pago.html">formas de pago</a>       
                   </ul>
                 </div>
               </li>
@@ -77,48 +78,43 @@
 <main>       
      
   <div class="container">
-    <div class="titulo-principal">
+    <div class="titulo-principal" data-aos="fade-right" >
         <h1>Lo mejor que tenemos para vos!</h1>
-        <div class="linea"></div>
+        <div class="linea-container-prici"></div>
     </div>
     <div class="row">
         <div class="col-md-3">
-            <div class="columna">
+            <div class="columna" data-aos="flip-left" >
                 <h2>"Procesamiento brillante: elevando su horizonte digital"</h2>
-                <div class="linea"></div>
+                <div class="linea-container-prici"></div>
                 <p>"Descubre la potencia con nuestros procesadores avanzados. Diseñados para impulsar tus creaciones y desafíos tecnológicos. Desde la velocidad hasta la eficiencia, estamos a la vanguardia. Con tecnología de precisión y potencia excepcional, lleva tus posibilidades al siguiente nivel con nosotros."
-
-
-
-
-
                 </p>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="columna">
+            <div class="columna" data-aos="flip-left" >
               <div class="columna-h2">
                 <h2>"Acelere su realidad: desate el poder infinito"</h2>
               </div>
-                <div class="linea"></div>
+                <div class="linea-container-prici"></div>
                 <p>"Impulsa tu realidad con potencia. Diseñado para juegos intensos y creaciones asombrosas. Desde la velocidad hasta la eficiencia, lideramos. Con tecnología avanzada y rendimiento incomparable, lleva tus expectativas al máximo con nosotros."</p>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="columna">
+            <div class="columna" data-aos="flip-left" >
               <div class="columna-h2">
                 <h2>"Sumérgete en el Juego: Monitores que Transforman."</h2>
               </div>
-                <div class="linea"></div>
+                <div class="linea-container-prici"></div>
                 <p>"Experimenta el Gaming en su Máxima Expresión. Nuestra selección de monitores te ofrece la claridad y la velocidad que necesitas para dominar cada partida. ¿Estás listo para la victoria?"</p>
             </div>
         </div>
         <div class="col-md-3">
-            <div class="columna">
+            <div class="columna" data-aos="flip-left" >
               <div class="columna-h2">
                 <h2>"Audiosfera Inmersiva, Control Infalible: Tu Experiencia Completa de Gaming."</h2>
               </div>
-                <div class="linea"></div>
+                <div class="linea-container-prici"></div>
                 <p>"Explora un nuevo nivel de inmersión con nuestros auriculares gaming de alta fidelidad y domina cada movimiento con nuestros mouses de precisión. La combinación perfecta para llevar tu juego a la cima."</p>
             </div>
         </div>
@@ -287,26 +283,15 @@
    </div>
  </div>
 
-
-
-
-
-
-
-
 </body>
-
-
-
-    
-
 
 </main> 
        
     </ul>
   </div>
 </section>
-      
+
+<div class="footer-princi">
 <footer>
    <a href="https://www.instagram.com/sebaasilva_/#" target="_blank">
        <img src="/img/instagram tp.jpeg" alt="Instagram" width="30" height="30">
@@ -320,7 +305,13 @@
        <img src="/img/mail tp.png" alt="Correo electrónico" width="30" height="30">
      </a>
 </footer>
+</div>
+
 <script src="/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

@@ -191,8 +191,8 @@ h1 {
     }
     
      
-      .columna {
-        background-color: #4B0082;
+   .columna {
+          background-color: #4B0082;
         color: white;
         padding: 20px;
         margin: 10px;
@@ -207,8 +207,8 @@ h1 {
       margin-right: 15px;
     }
     
-    .linea {
-        width: 30px;
+    .linea-container-prici {
+        width: 80px;
         height: 2px;
         background-color: white;
         margin: 0 auto;
@@ -253,7 +253,7 @@ h1 {
 .producto h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
-  white-space: normal; /* Cambio aquí */
+  white-space: normal; 
 }
 .producto p {
   font-size: 1.4em;
@@ -285,7 +285,7 @@ h1 {
     text-align: center;
     max-width: 800px;
     margin: 0 auto; 
-    margin-top: 20px; 
+    margin-top: 200px; 
     position: relative; 
 }
   
@@ -400,4 +400,104 @@ h1 {
 
 .texto {
   color: black;
+}
+
+/*formas de pago*/
+
+
+.formas-pago-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 50px auto 20px; 
+  max-width: 800px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+
+.formas-pago {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.forma-pago {
+  background-color: #222;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.forma-pago img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.forma-pago p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .forma-pago {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .forma-pago img {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+
+.titulo-formas {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+.descuento-container {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 20px auto; 
+  max-width: 700px; 
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.descuento-texto {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+footer {
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  margin-top: -60px; 
+}
+
+.footer-princi {
+margin-top: 40px;
+}
+
+.footer-contactos {
+margin-top: 100px;
+}
+
+.footer-formas-de-pago {
+  margin-top: 200px;
 }

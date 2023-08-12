@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Ubicacion</title>
 
@@ -29,13 +30,13 @@
             <a class="nav-link active" aria-current="page" href="/Index.html">Inico</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/Nosotros.html">Nosotros</a>
+            <a class="nav-link" href="/pages/Nosotros.html">Sus logros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/pages/Contacto.html">Contactanos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Donde estamos</a>
+            <a class="nav-link" href="/pages/Formas-de-pago.html">Formas de pago</a>
           </li>
         </ul>
       </div>
@@ -45,11 +46,12 @@
  </header>  
    <main>
     <div class="contenedor-principal">
-      <div class="titulo">
+      <div class="titulo" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" >
           Cumpliendo tus sueños
       </div>
       <div class="linea"></div>
-      <div class="contenedor-cuadrados">
+      <div class="contenedor-cuadrados" data-aos="zoom-in-down" >
           <div class="fila">
               <div class="cuadrado">
                   <img src="/img/set up 1.jpeg" alt="Imagen 1">
@@ -67,7 +69,8 @@
               </div>
           </div>
       </div>
-      <div class="texto-contenedor">
+      <div class="texto-contenedor" data-aos="fade-up"
+      data-aos-duration="3000" >
           <div class="linea-superior"></div>
           <div class="texto">
               Gracias por confiar en nosotros. Estamos comprometidos en hacer realidad tus sueños con productos de alta calidad y precios accesibles. Tu satisfacción es nuestra prioridad.
@@ -104,7 +107,10 @@
   </a>
 </footer>
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
